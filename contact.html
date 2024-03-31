@@ -29,8 +29,8 @@
     <title>Kafferia - Kontakt</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+      <div class="container">
         <a class="navbar-brand" href="index.html">Kafferia</a>
         <button
           class="navbar-toggler"
@@ -55,12 +55,68 @@
         </div>
       </div>
     </nav>
-    <div class="container">
+    <div class="container my-3">
+      <div class="row">
+        <div class="col-sm-8">
+          <h3>Om oss</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            a suscipit sem. Integer imperdiet ante nibh, a vestibulum nisl
+            euismod eget. Nunc massa lacus, vulputate a suscipit nec, porttitor
+            eu erat. Sed facilisis, massa id cursus molestie, eros tortor
+            pellentesque libero, rutrum ullamcorper libero dolor sed tortor.
+            Cras consequat rhoncus elementum. Maecenas tristique urna leo, porta
+            consectetur diam sodales ut. Ut id velit et augue hendrerit
+            sagittis. Quisque turpis dolor, pharetra et feugiat vel, blandit et
+            elit. Aliquam sed libero ut odio hendrerit semper. Praesent et
+            porttitor lectus. Vivamus in porta ligula, ac fringilla justo.
+            Aliquam erat volutpat.
+          </p>
+        </div>
+      </div>
       <div class="row">
         <div class="col">
-          <h3>Kontakt</h3>
+          <h5>VD</h5>
+          <ul>
+            <li>Kalle Persson</li>
+            <li>0731234569</li>
+            <li>kalle@kafferia.se</li>
+          </ul>
+        </div>
+        <div class="col">
+          <h5>HR-ansvarig</h5>
+          <ul>
+            <li>Sam Kvist</li>
+            <li>0731234569</li>
+            <li>sam@kafferia.se</li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6">
+          <h5 class="mb-3">Kontakta oss</h5>
+          <div class="card">
+            <div class="card-body">
+              <form>
+                <div class="mb-3">
+                  <label class="form-label">Email</label>
+                  <input type="email" class="form-control" />
+                </div>
+                <div class="mb-3">
+                  <label class="form-label">Meddelande</label>
+                  <textarea class="form-control" rows="5"></textarea>
+                </div>
+                <button type="submit" class="btn btn-success">Skicka</button>
+              </form>
+            </div>
+          </div>
         </div>
       </div>
     </div>
+    <footer
+      class="bg-body-tertiary text-center text-lg-start py-3 fixed-bottom"
+    >
+      <div class="text-center p-3">&copy; 2024</div>
+    </footer>
   </body>
 </html>
