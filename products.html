@@ -31,7 +31,10 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-success">
       <div class="container">
-        <a class="navbar-brand" href="index.html">Kafferia</a>
+        <a class="navbar-brand" href="index.html">
+          <img src="/assets/favicon-32x32.png" alt="Logo" />
+          Kafferia
+        </a>
         <button
           class="navbar-toggler"
           type="button"
@@ -56,20 +59,64 @@
       </div>
     </nav>
     <div class="container my-3">
-      <div class="row gy-3">
-        <div class="col-sm-6">
-          <h3>Kaffemaskiner</h3>
-          <ul class="list-group">
-            <li class="list-group-item">Moccamaster, 1899 kr</li>
-            <li class="list-group-item">Emerio kaffebryggare, 199 kr</li>
-            <li class="list-group-item">Melitta Deluxekaffebryggare, 799 kr</li>
-            <li class="list-group-item">
-              Philips 3300 espressomaskin, 5799 kr
-            </li>
-          </ul>
+      <div class="row gy-3 mb-3">
+        <h3>Kaffemaskiner</h3>
+        <div class="col">
+          <div class="card p-3" style="width: 15rem">
+            <img
+              src="https://www.elgiganten.se/image/dv_web_D180001002821578/350818/moccamaster-manual-kaffebryggare-53701-matt-silver--pdp_zoom-3000--pdp_main-960.jpg"
+              class="card-img-top"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Moccamaster</h5>
+              <p class="card-text">1899 kr</p>
+              <a href="#" class="btn btn-success">Buy</a>
+            </div>
+          </div>
         </div>
+        <div class="col">
+          <div class="card p-3" style="width: 15rem">
+            <img
+              src="https://www.elgiganten.se/image/dv_web_D1800010021581239/154947/emerio-kaffebryggare-cme-112698--pdp_zoom-3000--pdp_main-960.jpg"
+              class="card-img-top"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Emerio kaffebryggare</h5>
+              <p class="card-text">199 kr</p>
+              <a href="#" class="btn btn-success">Buy</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card p-3" style="width: 15rem">
+            <img
+              src="https://elgiganten.se/image/dv_web_D18000100265559/MEL21841/melitta-excellent-50-deluxekaffebryggare-21841-svart--pdp_zoom-3000--pdp_main-960.jpg"
+              class="card-img-top"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Melitta Excellent 5.0</h5>
+              <p class="card-text">799 kr</p>
+              <a href="#" class="btn btn-success">Buy</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card p-3" style="width: 15rem">
+            <img
+              src="https://www.elgiganten.se/image/dv_web_D180001002235162/KF570/braun-kaffebryggare-kf570--pdp_zoom-3000--pdp_main-960.jpg"
+              class="card-img-top"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Braun KF570</h5>
+              <p class="card-text">599 kr</p>
+              <a href="#" class="btn btn-success">Buy</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row gy-3">
+        <h3>Kaffeparty</h3>
         <div class="col-sm-6">
-          <h3>Kaffeparty</h3>
           <div class="card mb-3">
             <div class="card-body">
               <h5>Privatpersoner</h5>
@@ -85,6 +132,8 @@
               </p>
             </div>
           </div>
+        </div>
+        <div class="col-sm-6">
           <div class="card">
             <div class="card-body">
               <h5>Företag</h5>
@@ -106,7 +155,7 @@
     <footer
       class="bg-body-tertiary text-center text-lg-start py-3 fixed-bottom"
     >
-      <div class="text-center p-3">&copy; 2024</div>
+      <div class="text-center p-3">av John Källström &copy; 2024</div>
     </footer>
   </body>
 </html>
